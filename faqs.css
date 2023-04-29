@@ -1,9 +1,16 @@
+*{
+    background-color: rgb(120, 204, 172);
+}
+h1{
+    text-align: center;
+}
 body{
     font-family: 'Work Sans', sans-serif;
 }
 .faq-heading{
-    border-bottom: #777;
+    border-bottom:rgb(141, 194, 174);
     padding: 20px 60px;
+    text-align: center;
 }
 .faq-container{
 display: flex;
@@ -33,7 +40,7 @@ flex-direction: column;
 }
 .active,
 .faq-page:hover {
-    background-color: #F9F9F9;
+    background-color: rgb(141, 194, 174);
 }
 .faq-body {
     padding: 0 18px;
