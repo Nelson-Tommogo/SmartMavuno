@@ -1,1 +1,1 @@
-This is A signup page for my smart farmers website/ act like a farmers social media web based application
+This is A signup page for my smartMavuno website/ act like a farmers social media web based application
