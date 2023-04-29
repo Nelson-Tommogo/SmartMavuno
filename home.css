@@ -4,6 +4,12 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     transition: all 0.5s;
+    background-color: rgb(56,238,168);
+    color: #000;
+}
+h1{
+    text-align: center;
+    color: #bb3333;
 }
 :root {
     /* FONT SIZES */
@@ -13,9 +19,9 @@
     --text-large-font: 20px;
     --text-font: 16px;
     /* COLOURS */
-    --text-color: #000;
-    --hover-color: #bb3333;
-    --dark-color: #095000;
+    --text-color: rgb(94,25,20);
+    --hover-color:rgb(2,114,141);
+    --dark-color: rgb(94,25,20);
     --bg-color: #b3ffa2;
     --bg-color-header: #56a944d3;
     --header-change-color: #b8eba6d7;
