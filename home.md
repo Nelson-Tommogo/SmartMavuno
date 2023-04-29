@@ -1,0 +1,1 @@
+HomePage for my smart farmers app after styling, it will give a taste of the application
