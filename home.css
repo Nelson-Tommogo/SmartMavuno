@@ -1,6 +1,9 @@
-
+*{
+    background-image: url();
+    text-align: justify;
+}
 .navbar {
-    background-color:#E6B17E;
+    background-color:rgb(2,114,141);
 }
 .navbar .navbar-brand img {
     height: 8rem;
