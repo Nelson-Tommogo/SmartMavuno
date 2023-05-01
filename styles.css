@@ -1,13 +1,26 @@
+
 Body {  
-  background-color: #543938;  
+  background-color: rgb(56,238,168); 
   text-align: center;
 }
+.logo-container {
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+img {
+  max-width: 10%;
+  height: auto;
+}
+
 h1{
   align-items: center;
 }
 button {   
-       background-color: maroon;   
-       width: 10%;  
+  background-color:#01a2aB; 
+  width: 10%;  
         color: #520c17;   
         padding: 15px;   
         margin: 10px 0px;   
@@ -18,9 +31,9 @@ button {
         border: 3px solid #520c17;   
     }   
  input[type=text], input[type=password] {   
-        width: 30%;   
-        margin: 8px 0;  
-        padding: 12px 20px;   
+        width: 20%;   
+        margin: 20px 0;  
+        padding: 10px 15px;   
         display: inline-block;   
         border: 2px solid #520c17;   
         box-sizing: border-box;   
@@ -36,7 +49,7 @@ button {
         
      
  .container {   
-        padding: 15px;   
-        background-color:#01a2aB; 
+        padding: 20px;   
+        background-color:rgb(56,238,168); 
        
     }
