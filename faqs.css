@@ -1,6 +1,19 @@
 *{
     background-color: rgb(120, 204, 172);
 }
+
+.logo-container {
+    position: relative;
+    top: 0;
+    left: 95%;
+    transform: translateX(-50%);
+  }
+  
+  img {
+    max-width: 10%;
+    height: auto;
+  }
+
 h1{
     text-align: center;
 }

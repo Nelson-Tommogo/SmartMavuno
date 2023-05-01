@@ -1,7 +1,7 @@
 .logo-container {
-    position: absolute;
+    position: relative;
     top: 0;
-    left: 50%;
+    left: 90%;
     transform: translateX(-50%);
   }
   
@@ -607,13 +607,7 @@ cursor: pointer;
     height: 160px;
 
   }
-  /* /CLIENTS Section */
-
-
-
-/* Small screens */
 @media (max-width: 576px) {
-    /* HOME section */
     .home-page-content {
         padding-top: 10rem;
     }
@@ -624,15 +618,9 @@ cursor: pointer;
     .home-buttons .homepage-btn-1, .homepage-btn-2 {
      font-size: 1rem;
     }
-    /* Home section */
-
-    /* Store section */
     .store-row-2 .col-sm-3, .store-row-3 .col-sm-3 {
         padding-bottom: 10px;
       }
-    /* /Store section */
-
-    /* TEAM section */
     .team-row .card-deck .card {
         width: 400px;
         height: inherit;
@@ -646,9 +634,7 @@ cursor: pointer;
        height: auto;
    
    }
-   /* /TEAM Section */}
-
-
+}
    p{
     background-color: #E6B17E;
     align-content: center;

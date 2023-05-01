@@ -2,6 +2,17 @@
     background-color:rgb(120, 204, 172) ;
     font-size: 20px;
 }
+.logo-container {
+    position: relative;
+    top: 0;
+    left: 92%;
+    transform: translateX(-50%);
+  }
+  
+  img {
+    max-width: 17%;
+    height: auto;
+  }
 h1{
     text-align: center;
     font-size: 30px;
