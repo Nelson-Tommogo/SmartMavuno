@@ -9,23 +9,22 @@
     max-width: 20%;
     height: auto;
   }
-
 .navbar {
-    background-color:#E6B17E;
+    background-color:rgb(255, 255, 255, 0.2);
 }
 .navbar .navbar-brand img {
-    height: 8rem;
+    height: 4rem;
     width: auto;
 }
 .navbar .navbar-toggler {
-    border:none;
+    border: none;
     outline: none;
     font-size: 1.8rem;
   
 }
 
 .navbar .navbar-collapse .navbar-nav li {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
     padding-left: 1rem;
@@ -73,7 +72,6 @@
     background: #004d00;
     color: white;
 }
-
 .carousel-row h2 {
     font-family: 'Raleway', sans-serif;
     color: #4d4d4d;
@@ -231,9 +229,6 @@
       font-size: 14px;
       color: #ffc000;
   }
-  
-
-/* /store main row */
 .store-heading {
     font-family: 'Raleway', sans-serif;
 color: #4d4d4d;
@@ -509,13 +504,6 @@ cursor: pointer;
     color: #ffc000;
     cursor: pointer;
     }
-
-
-/* /Store rows */
-/* /Store */
-
-/* TEAM Section */
-
 .team-title {
     font-size: 2rem;
     font-family: 'Raleway', sans-serif;
@@ -578,12 +566,6 @@ cursor: pointer;
     color: #262626;
     cursor: pointer;
 }
-
-
-/* /TEAM Section */
-
-/* CLIENTS Section */
-
 .clients-title {
     font-size: 2rem;
     font-family: 'Raleway', sans-serif;
@@ -607,11 +589,11 @@ cursor: pointer;
     height: 160px;
 
   }
+
 @media (max-width: 576px) {
     .home-page-content {
         padding-top: 10rem;
     }
-    
     .home-page-text {
         font-size: 1.6rem;
     }
@@ -635,11 +617,3 @@ cursor: pointer;
    
    }
 }
-   p{
-    background-color: #E6B17E;
-    align-content: center;
-    margin-left: 250px;
-    margin-right:350px;
-    color: 19-1337;
-   }
-  
