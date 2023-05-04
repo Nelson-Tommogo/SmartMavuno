@@ -20,7 +20,7 @@
             <label>Password : </label>   
             <input type="password" id="password" placeholder="Enter Password" name="password" required>  
             <br><br>
-            <button class="signUp" id="signUp"> <a href="login.html">Sign up</a></button>  
+            <button class="signUp" id="signUp"> <a href="#">Sign up</a></button>  
             <br><br> 
             <label>OR</label> 
             <br>
@@ -75,6 +75,8 @@ createUserWithEmailAndPassword(auth, email, password)
     })
 
     alert('user created!');
+    window.location.href = 'login.html';
+
     
     // ...
   })

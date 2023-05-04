@@ -10,14 +10,14 @@
       </div>
       <h2> Login </h2>
         <div class="container">   
-            <label>Username: </label>   
-            <input type="text" placeholder="Enter Username" name="username" required>  
+            <label>Email: </label>   
+            <input type="text" id="email" placeholder="email" name="email" required>  
             <br><br>
             <label>Password : </label>   
-            <input type="password" placeholder="Enter Password" name="password" required>  
+            <input type="password" id="password" placeholder="Enter Password" name="password" required>  
             <br><br>
             <input type="checkbox" checked="checked"> Remember me<br> 
-            <button class="Login" id="login"> <a href="HomePage.html">Login</a></button>  
+            <button class="Login" id="login"> <a href="#">Login</a></button>  
             <br><br> 
             <label>OR</label> 
             <br>
@@ -71,6 +71,7 @@ login.addEventListener('click',(e)=>{
         })
 
          alert('User loged in!');
+         window.location.href = 'HomePage.html';
         // ...
       })
       .catch((error) => {
@@ -79,39 +80,6 @@ login.addEventListener('click',(e)=>{
 
         alert(errorMessage);
   });
-});
-
-
-const user = auth.currentUser;
-onAuthStateChanged(auth, (user) => {
-  if (user) {
-    // User is signed in, see docs for a list of available properties
-    // https://firebase.google.com/docs/reference/js/firebase.User
-    const uid = user.uid;
-    //bla bla bla
-    // ...
-  } else {
-    // User is signed out
-    // ...
-    //bla bla bla
-  }
-});
-logout.addEventListener('click',(e)=>{
-
-signOut(auth).then(() => {
-  // Sign-out successful.
-  alert('user loged out');
-}).catch((error) => {
-  // An error happened.
-  const errorCode = error.code;
-  const errorMessage = error.message;
-
-     alert(errorMessage);
-});
-
-});
-
-
-
+})
   </script>
 </html>  
