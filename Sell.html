@@ -1,20 +1,61 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>SmartMavuno App</title>
-        <link rel="stylesheet" href="sell.css">
-    </head>
-    <body>
-        <h1>Sell Products</h1>
-        <input type="file" id="myFileInput">
+  <head>
+    <meta charset="UTF-8">
+    <title>Upload Image</title>
+  </head>
+  <body>
+    <h1>Upload an image</h1>
+    <form>
+      <label for="fileInput">Select a file:</label>
+      <input type="file" id="fileInput">
+      <br>
+      <button type="button" onclick="uploadImage()">Upload</button>
+    </form>
 
-<script>
-const fileInput = document.getElementById('myFileInput');
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-storage.js"></script>
 
-fileInput.addEventListener('change', (event) => {
-  const file = event.target.files[0];
-  console.log('Selected file:', file);
-});
-</script>
+    <script>
+      // Initialize Firebase
+      firebase.initializeapp({
+        apiKey: "AIzaSyApU7_YcSXNXzixSxD8KBRtivt5oVuyj2c",
+      authDomain: "smartmavuno.firebaseapp.com",
+      databaseURL: "https://smartmavuno-default-rtdb.firebaseio.com",
+      projectId: "smartmavuno",
+      storageBucket: "smartmavuno.appspot.com",
+      messagingSenderId: "298910741240",
+      appId: "1:298910741240:web:dbbe6e3dfcfc1568e9c10d",
+      measurementId: "G-N1C5FBGVEE"
+      });
 
-    </body>
+      function uploadImage() {
+        // Get a reference to the Firebase Storage service
+        const storageRef = firebase.storage().ref();
+
+        // Get the file input element from the HTML page
+        const fileInput = document.getElementById('fileInput');
+
+        // Get the selected file from the input element
+        const file = fileInput.files[0];
+
+        // Create a new reference for the file in Firebase Storage
+        const imageRef = storageRef.child('images/' + file.name);
+
+        // Upload the file to Firebase Storage
+        imageRef.put(file).then((snapshot) => {
+          console.log('Image uploaded successfully');
+          // Get the download URL of the uploaded image
+          snapshot.ref.getDownloadURL().then((url) => {
+            console.log('Image URL:', url);
+            // Redirect to the purchase page passing the image URL as a query parameter
+            window.location.href = 'purchase.html?imageUrl=' + encodeURIComponent(url);
+          });
+        }).catch((error) => {
+          console.error('Error uploading image:', error);
+        });
+      }
+    </script>
+  </body>
 </html>
