@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Purchase</title>
+  </head>
+  <body>
+    <h1>Purchase</h1>
+    <img id="uploadedImage" alt="Uploaded image">
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-storage.js"></script>
+
+    <script>
+      // Initialize Firebase
+      firebase.initializeApp({
+        apiKey: 'YOUR_API_KEY',
+        authDomain: 'YOUR_AUTH_DOMAIN',
+        projectId: 'YOUR_PROJECT_ID'
+      });
+
+      // Get the image URL from the query parameter
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      const imageUrl = urlParams.get('imageUrl');
+
+      // Set the image URL as the source of the img element
+      const imgElement = document.getElementById('uploadedImage');
+      imgElement.src = imageUrl;
+    </script>
+  </body>
+</html>
