@@ -5,12 +5,12 @@
 .logo-container {
     position: relative;
     top: 0;
-    left: 92%;
+    left: 98%;
     transform: translateX(-50%);
   }
   
   img {
-    max-width: 17%;
+    max-width: 5%;
     height: auto;
   }
 h1{
