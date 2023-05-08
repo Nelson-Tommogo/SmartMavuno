@@ -425,8 +425,9 @@ header {
 
 .invest__item__subtitle {
   color: #66BB6A;
-  font-size: 1.4rem;
+  font-size: 20px;
   font-weight: 400;
+  font-weight: bold;
   position: relative;
 }
 
@@ -437,7 +438,7 @@ header {
   left: 0;
   width: 5.6rem;
   height: 4px;
-  background-color: #ffffff;
+  background-color: #66bb6a;
 }
 
 .invest__item__body {
