@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .replace(/ please/g, "");
 }
 const utterances = [ 
-    ["how are you", "how is life", "how are things"],        //0
+    ["how are you", "how is TechWorld?", "how is farming going?"],        //0
     ["hi", "hey", "hello", "good morning", "good afternoon"],      //1
     ["what are you doing", "what is going on", "what is up"],      //2
     ["how old are you"],					//3
@@ -35,15 +35,15 @@ const utterances = [
   const answers = [
      [
       "Fine... how are you?",
-      "Pretty well, how are you?",
-      "Fantastic, how are you?"
+      "Pretty well, I guese?",
+      "Fantastic, Just to say?"
     ],                                                                                  	//0
     [
-      "Hello!", "Hi!", "Hey!", "Hi there!", "Howdy"
+      "Hello!", "Hi!", "Hey!", "Hi there!", "Farmer"
     ],						//1
     [
       "Nothing much",
-      "About to go to sleep",
+      "Need to get started",
       "Can you guess?",
       "I don't know actually"
     ],						//2
