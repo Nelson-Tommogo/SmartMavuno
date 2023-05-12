@@ -7,10 +7,12 @@ document.getElementById('submit').addEventListener('click', sendEmail);
 // Function to send the email
 function sendEmail() {
   // Get the recipient's email address from the form
-  const recipientEmail = document.getElementById('recipientEmail').value;
+  const recipientEmail = document.getElementById('senderEmail').value;
 
   // Get the sender's email address from the form
-  const senderEmail = document.getElementById('senderEmail').value;
+  const senderfirstname = document.getElementById('fname').value;
+  const senderlastname = document.getElementById('lname').value;
+
 
   // Create a transporter object using SMTP transport
   const transporter = nodemailer.createTransport({
