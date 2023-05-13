@@ -36,7 +36,7 @@ const utterances = [
      [
       "Fine... how are you?",
       "Pretty well, I guese?",
-      "Fantastic, Just to say?"
+      "Fantast  , Just to say?"
     ],                                                                                  	//0
     [
       "Hello!", "Hi!", "Hey!", "Hi there!", "Farmer"

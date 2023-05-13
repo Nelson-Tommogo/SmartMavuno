@@ -1,6 +1,13 @@
+body {
+  width: 1000px; 
+  height: 600px;
+  margin-left: 400px;
+}
+
 *{
-    background-color:rgb(120, 204, 172) ;
+    background-color:#66BB6A ;
     font-size: 20px;
+    color: white;
 }
 .logo-container {
     position: relative;
@@ -31,7 +38,7 @@ h3{
 .resource-item {
     display: block;
     align-items: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px white;
     border-radius: 10px;
     overflow: hidden;
   }
