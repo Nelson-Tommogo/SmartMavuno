@@ -1,6 +1,6 @@
 
 Body {  
-  background-color: rgb(56,238,168); 
+  background-color: #66BB6A; 
   text-align: center;
 }
 .logo-container {
@@ -11,7 +11,7 @@ Body {
 }
 
 img {
-  max-width: 10%;
+  max-width: 35%;
   height: auto;
 }
 
@@ -19,7 +19,7 @@ h1{
   align-items: center;
 }
 button {   
-  background-color:#01a2aB; 
+  background-color:#66BB6A; 
   width: 10%;  
         color: #520c17;   
         padding: 15px;   
@@ -50,6 +50,11 @@ button {
      
  .container {   
         padding: 20px;   
-        background-color:rgb(56,238,168); 
+        background-color:white;
+        margin: 0 auto;
+        position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
        
     }
