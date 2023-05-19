@@ -1,67 +1,70 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <title>SmartMavuno App</title>
-        <!-- <link rel="icon" type="image/png" href="assets/img/logo.svg"> -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-        <link rel="stylesheet" href="assets/css/main.css">
-    </head>
-    <body>
-        <section class="how-is-works w-120">
-            <div class="works__content">
-                <div class="works__head">
-                    <h2 class="works__title">Our partners</h2>
-                    <p class="works__description">
-                        SmartMavunoApp operates with the help of the partners
-                        which are Agriculture or farming oriented.
-                    </p>
-                </div>
-                <div class="works__body">
-                    <ul class="form_progressbar">
-                        <li class="progressbar__step active" data-step="1">01</li>
-                        <li class="progressbar__step" data-step="2">02</li>
-                        <li class="progressbar__step" data-step="3">03</li>
-                        <li class="progressbar__step" data-step="4">04</li>
-                    </ul>
-                </div>
-                <div class="works__footer">
-                    <div class="works__step__content first_step">
-                        <h3 class="works__step_title"> Twiga App</h3>
-                        <p class="works__step_description">
-                           SmartMavuno Work hand in hand with Twiga to realize its 
-                           operations as it seeks to diversify farmers market something Twiga really 
-                           advocates.
-                        </p>
-                    </div>
-                    <div class="works__step__content">
-                        <h3 class="works__step_title">Shamba Shape up</h3>
-                        <p class="works__step_description">
-                            If bit of SmartMavunoAppis documented if farmer, follow the 
-                            required procedures same to buyer, partners and users.
-                        </p>
-                    </div>
-                    <div class="works__step__content">
-                        <h3 class="works__step_title">Intellidigest</h3>
-                        <p class="works__step_description">
-                            SmartMavuno promotes to realize food sustainability and sustainable 
-                            environment
-                        </p>
-                    </div>
-                    <div class="works__step__content">
-                        <h3 class="works__step_title">Kenya Seed Company</h3>
-                        <p class="works__step_description">
-                            Kenya seed Company gives users and farmers access to information regarding 
-                            seeds to plant, time and fertilizer to use.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-
-        </section>
-        <script src="assets/js/main.js" type="module"></script>
-
-
-    </body>
+<head>
+  <title>Partners Section</title>
+  <style>
+    *{
+        background-color: #66bb6a;
+    }
+    .partners-section {
+      text-align: center;
+      padding: 20px;
+    }
+    
+    .partners-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 20px;
+      margin-top: 20px;
+    }
+    
+    .partner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .partner img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+    
+    .partner h3 {
+      font-size: 22px;
+      margin-bottom: 5px;
+    }
+    
+    .partner p {
+      font-size: 22px;
+    }
+    .return-button {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="partners-section">
+    <h2>Partners</h2>
+    <div class="partners-container">
+      <div class="partner">
+        <img src="zazu_mophasa-58.jpg" alt="Partner 1">
+        <h3>Riftvalley Farmers Association</h3>
+        <p>Kenya Farmers association provides market <br>
+            and education for most kenya farmers and Africa and even globally</p>
+      </div>
+      <div class="partner">
+        <img src="About.jpeg" alt="Partner 2">
+        <h3>Kenya Farmers Association</h3>
+        <p>Kenya Farmers association provides market <br>
+            and education for most kenya farmers and Africa and even globally
+        </p>
+      </div>
+      <!-- Add more partner divs as needed -->
+    </div>
+    <button class="return-button" onclick="window.location.href='HomePage.html'">Return to Homepage</button>
+  </div>
+</body>
 </html>
