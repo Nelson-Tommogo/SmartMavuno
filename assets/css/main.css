@@ -85,7 +85,8 @@ header {
 }
 
 .header__logo img {
-  max-width: 16rem;
+  width: 300px;
+  height: auto;
 }
 
 .header__nav__content {
