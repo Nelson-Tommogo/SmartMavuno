@@ -15,30 +15,30 @@
 	<button onclick="uploadImage"()>Upload Image </button>
 
 </body>
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-storage.js"></script>
 
-<script type="module">
-	// Import the functions you need from the SDKs you need
-	import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
-	import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-storage.js";
-	// TODO: Add SDKs for Firebase products that you want to use
-	// https://firebase.google.com/docs/web/setup#available-libraries
-  
-	// Your web app's Firebase configuration
-	// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-	const firebaseConfig = {
-	  apiKey: "AIzaSyApU7_YcSXNXzixSxD8KBRtivt5oVuyj2c",
-	  authDomain: "smartmavuno.firebaseapp.com",
-	  databaseURL: "https://smartmavuno-default-rtdb.firebaseio.com",
-	  projectId: "smartmavuno",
-	  storageBucket: "smartmavuno.appspot.com",
-	  messagingSenderId: "298910741240",
-	  appId: "1:298910741240:web:dbbe6e3dfcfc1568e9c10d",
-	  measurementId: "G-N1C5FBGVEE"
-	};
-  
-	// Initialize Firebase
-	const app = initializeApp(firebaseConfig);
-	const analytics = getAnalytics(app);
-  </script>
+<script>
+  // Import the functions you need from the SDKs you need
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyApU7_YcSXNXzixSxD8KBRtivt5oVuyj2c",
+    authDomain: "smartmavuno.firebaseapp.com",
+    databaseURL: "https://smartmavuno-default-rtdb.firebaseio.com",
+    projectId: "smartmavuno",
+    storageBucket: "smartmavuno.appspot.com",
+    messagingSenderId: "298910741240",
+    appId: "1:298910741240:web:497216da8313cb25e9c10d",
+    measurementId: "G-6GKMFVG3RM"
+  };
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  console.log(firebase);
+</script>
 <script src="upload.js"></script> 
 </html>
