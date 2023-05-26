@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Partners Section</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <style>
+    *{
+        background-color: D2D9D1;
+    }
+    .partners-section {
+      text-align: center;
+      padding: 20px;
+    }
+    
+    .partners-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 20px;
+      margin-top: 20px;
+    }
+    
+    .partner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .partner img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+    
+    .partner h3 {
+      font-size: 22px;
+      margin-bottom: 5px;
+    }
+    
+    .partner p {
+      font-size: 22px;
+    }
+    .return-button {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="partners-section">
+    <h2>Team</h2>
+    <div class="partners-container">
+      <div class="partner">
+        <img src="zazu_mophasa-58.jpg" alt="Partner 1">
+        <h3>Nelson Tommogo</h3>
+        <p>Senior Software Developer<br>
+            @PowerLearnAfrica<br>
+            Founder and CEO SmartMavuno application StarUp
+            </p>
+      </div>
+      <div class="partner">
+        <img src="20230308110422_IMG_9220.jpg" alt="Partner 2">
+        <h3>Diana Achieng</h3>
+        <p>data Analyst<br>
+        </p>
+      </div>
+    </div>
+    <button class="return-button" onclick="window.location.href='HomePage.html'"></button>
+    <i class="fa-duotone fa-right-left"></i>Home
+  </div>
+</body>
+</html>
