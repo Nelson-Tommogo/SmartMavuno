@@ -2,16 +2,22 @@
 Body {  
     background-color: #66BB6A; 
     text-align: center;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 30px;
   }
   .logo-container {
     position: relative;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    height: auto;
   }
   
   img {
-    max-width: 5%;
+    max-width: 25%;
     height: auto;
   }
   
@@ -31,12 +37,13 @@ Body {
           border: 3px solid #520c17;   
       }   
    input[type=text], input[type=password] {   
-          width: 20%;   
-          margin: 20px 0;  
-          padding: 10px 15px;   
+          width: 40%;   
+          margin: 30px 30px;  
+          padding: 15px 30px;   
           display: inline-block;   
           border: 2px solid #520c17;   
-          box-sizing: border-box;   
+          box-sizing: border-box; 
+          background-color: D2D9D1;  
       }  
    button:hover {   
           opacity: 0.7;   
@@ -50,6 +57,12 @@ Body {
        
    .container {   
           padding: 20px;   
-          background-color:white;     
-
+          background-color:FFFFFF;
+          width: auto;  
+          align-items: center;
+          padding: 20px;
+          height: 90%;
+          border-radius: 25px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+          text-align: center;
       }
