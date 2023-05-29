@@ -1,10 +1,13 @@
 .footer {
     width: 100%;
-    position: relative;
+    position: absolute;
     height: auto;
+    left: 0;
+    right: 0;
     background-color:FFFFFF;
     color: #66BB6A;
-    font-size: 20px;
+    text-align: center;
+    padding: 20px;
   }
   .footer .col {
     width: 190px;
