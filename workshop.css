@@ -5,9 +5,9 @@ body {
 }
 
 *{
-    background-color:#66BB6A ;
+    background-color:FFFFFF ;
     font-size: 20px;
-    color: white;
+    color:#66BB6A ;
 }
 .logo-container {
     position: relative;
@@ -15,9 +15,10 @@ body {
     left: 98%;
     transform: translateX(-50%);
   }
+  /* #66BB6A */
   
   img {
-    max-width: 5%;
+    max-width: 250px;
     height: auto;
   }
 h1{
@@ -38,7 +39,7 @@ h3{
 .resource-item {
     display: block;
     align-items: center;
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 10px #66BB6A;
     border-radius: 10px;
     overflow: hidden;
   }
