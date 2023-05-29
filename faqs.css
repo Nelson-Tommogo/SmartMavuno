@@ -1,5 +1,6 @@
 *{
-    background-color: rgb(120, 204, 172);
+    background-color: FFFFFF;
+    color: #66BB6A;
 }
 
 .logo-container {
@@ -36,7 +37,7 @@ flex-direction: column;
   
 }
 .faq-page {
-    color: #444;
+    color: #66BB6A;
     cursor: pointer;
     padding: 30px 20px;
     width: 60%;
