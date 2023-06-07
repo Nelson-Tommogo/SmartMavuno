@@ -5,7 +5,7 @@ Body {
     display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      height: 150vh;
       margin: 30px;
 }
 .logo-container {
