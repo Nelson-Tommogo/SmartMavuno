@@ -4,13 +4,26 @@
   }
   
   .dropdown-button {
-    background-color: green;
+  background-color: #66BB6A;
   color: black;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
   border-radius: 15px;
+  position: relative;
   }
+
+.arrow-down {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff; 
+}
   .dropdown-button:hover {
     background-color: lavenderblush;
   }
@@ -39,7 +52,7 @@
     display: block;
   }
   .menu__button {
-    background-color:green;
+    background-color:#66BB6A;
     color: black;
     padding: 10px 10px;
     border: none;
@@ -51,4 +64,5 @@
   .menu__button:hover {
     background-color: lavenderblush;
   }
+
   
