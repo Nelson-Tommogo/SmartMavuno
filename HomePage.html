@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>SmartMavuno App</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="dropdown.css">
+
     <link rel="icon" type="image/x-icon" href="logo-black.png" />
 
 </head>
@@ -32,21 +33,28 @@
                         <li class="menu__item">
                             <a href="#" class="menu__link">Weather Forecast</a>
                         </li>
-                        <li class="menu__item">
-                            <a href="workshops.html" class="menu__link">WorkShops Education</a>
+                        <div class="dropdown">
+                            <button class="dropdown-button">Learn</button>
+                            <div class="dropdown-content">
+                              <a href="workshops.html">Education/Workshops</a>
+                              <a href="contactus.html">FAQ's</a>
+                              <a href="FAQs.html">FAQ's</a>
+                            </div>
+                          </div>
+                          <li class="menu__item">
+                            <a href="chat.html" class="menu__link">Chatbot</a>
                         </li>
                         <li class="menu__item">
-                            <a href="partner.html" class="menu__link">Partnerts</a>
+                            <a href="chat.html" class="menu__link">Pricing</a>
                         </li>
-                        <li class="menu__item">
-                            <a href="chat.html" class="menu__link">Join Chat</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="contactus.html" class="menu__link">Contact Us</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="FAQs.html" class="menu__link">FAQ's</a>
-                        </li>
+                        <div class="dropdown">
+                            <button class="dropdown-button">Products</button>
+                            <div class="dropdown-content">
+                              <a href="workshops.html">Poultry Farm</a>
+                              <a href="contactus.html">Livestock farm</a>
+                              <a href="FAQs.html">Agri-Jenga</a>
+                            </div>
+                          </div>
                     </ul>
                     <div class="header__signup">
                         <a href="index.html" class="btn btn__signup">
@@ -414,6 +422,9 @@
                         <li class="footer_nav__item">
                             <a href="#" class="footer_nav__link">Contact</a>
                         </li>
+                        <li class="footer_nav__item">
+                            <a href="partner.html" class="footer_nav__link">partners</a>
+                        </li>
                     </ul>
                     <ul class="footer_nav__menu">
                         <li class="footer_nav__item">
@@ -472,5 +483,4 @@
     <script src="assets/js/main.js" type="module"></script>
 
 </body>
-
 </html>
