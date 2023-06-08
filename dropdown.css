@@ -4,12 +4,15 @@
   }
   
   .dropdown-button {
-    padding: 8px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #f1f1f1;
-    cursor: pointer;
+    background-color: green;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  }
+  .dropdown-button:hover {
+    background-color: lavenderblush;
   }
   
   .dropdown-content {
@@ -34,5 +37,18 @@
   
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+  .menu__button {
+    background-color:green;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    border-radius: 15px
+  }
+  
+  .menu__button:hover {
+    background-color: lavenderblush;
   }
   
