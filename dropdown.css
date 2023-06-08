@@ -41,7 +41,7 @@
   .menu__button {
     background-color:green;
     color: black;
-    padding: 10px 20px;
+    padding: 10px 10px;
     border: none;
     cursor: pointer;
     transition: background-color 0.5s;
