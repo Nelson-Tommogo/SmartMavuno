@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="dropdown.css">
+    <link rel="stylesheet" href="bot.css">
     <link rel="icon" type="image/x-icon" href="logo-black.png"/>
 </head>
 <body>
@@ -466,7 +467,16 @@
             </div>
         </footer>
     </div>
-    <script src="assets/js/main.js" type="module"></script>
+    <button id="chatButton" class="chat-button">Ask Something</button>
 
+    <div id="chatWindow" class="chat-window">
+      <div id="chatMessages" class="chat-messages"></div>
+      <div class="chat-input">
+        <input type="text" id="messageInput" placeholder="Type your message...">
+        <button id="sendButton">Send</button>
+      </div>
+    </div>
+    <script src="assets/js/main.js" type="module"></script>
+    <script src="bot.js" type="module"></script>
 </body>
 </html>
