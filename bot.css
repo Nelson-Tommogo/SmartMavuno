@@ -3,7 +3,7 @@
   bottom: 20px;
   right: 20px;
   padding: 10px 20px;
-  background-color: palegreen;
+  background-color: green;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -46,7 +46,7 @@ color: white;
 
 .chat-input button {
   margin-left: 10px;
-  background-color:#66BB6A;
+  background-color:green;
   color: #fff;
   border: none;
   border-radius: 3px;
