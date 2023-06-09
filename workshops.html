@@ -5,7 +5,8 @@
         <link rel="stylesheet" type="text/css" href="footer.css">
         <link rel="icon" type="image/x-icon" href="logo-black.png" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
+        <link rel="stylesheet" type="text/css" href="bot.css">
+
     </head>
     <body>
     <div class="logo-container">
@@ -249,7 +250,15 @@
 
   </div>
 
+  <div id="chatWindow" class="chat-window">
+    <div id="chatMessages" class="chat-messages"></div>
+    <div class="chat-input">
+      <input type="text" id="messageInput" placeholder="Type your message...">
+      <button id="sendButton">Send</button>
+    </div>
+  </div>
 
+  <script src="bot.js"></script>
 
   <script>
       var close = document.getElementsByClassName("closebtn");

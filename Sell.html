@@ -8,7 +8,7 @@
 	<div class="header__logo">
 		<img src="logo-black.png" width=350px height=auto alt="Logo">
 	</div>
-	
+	<link rel="stylesheet" href="bot.css">
 </head>
 
 <body>
@@ -16,5 +16,15 @@
 	
 	<input type="file" id="photo">
   <button onclick="uploadImage()">uploadImage</button>
+
+  <div id="chatWindow" class="chat-window">
+    <div id="chatMessages" class="chat-messages"></div>
+    <div class="chat-input">
+      <input type="text" id="messageInput" placeholder="Type your message...">
+      <button id="sendButton">Send</button>
+    </div>
+  </div>
+
+  <script src="bot.js"></script>
 </body>
 </html>
