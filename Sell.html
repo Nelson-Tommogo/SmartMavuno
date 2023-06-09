@@ -4,7 +4,8 @@
   <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-storage.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Include Font Awesome CSS -->
-  <script src="upload.js"></script> 
+  <script src="upload.js"></script>
+  <link rel="stylesheet" href="homebat.css"> 
 	<!-- Link the javascript file -->
 	<div class="header__logo">
 		<img src="logo-black.png" width=350px height=auto alt="Logo">
@@ -18,6 +19,11 @@
 	<input type="file" id="photo">
   <button onclick="uploadImage()">uploadImage</button>
 
+  <div class="container">
+    <a href="index.html" class="home-link">
+      <i class="fas fa-home home-icon"></i>
+      Home
+    </a>  </div>
   <button id="chatButton" class="chat-button"><i class="fas fa-comment"></i></button>
     <div id="chatWindow" class="chat-window">
         <div class="title">NEED HELP?</div>
@@ -30,5 +36,6 @@
                 <script src="bot.js"></script>
 
   <script src="bot.js"></script>
+
 </body>
 </html>
