@@ -16,6 +16,7 @@
     bottom: 100px;
     right: 20px;
     width: 300px;
+    height: 250px;
     background-color: #f1f1f1;
     border-radius: 5px;
     display: none;
@@ -48,4 +49,8 @@
     border-radius: 3px;
     cursor: pointer;
   }
+  .chat-button i {
+    font-size: 24px;
+  }
+  
   
