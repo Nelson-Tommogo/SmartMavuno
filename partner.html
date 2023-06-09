@@ -4,6 +4,7 @@
   <link rel="icon" type="image/x-icon" href="logo-black.png" />
   <title>Partners Section</title>
   <img src="logo-black.png" width=300px alt="Logo">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Include Font Awesome CSS -->
   <style>
     *{
         background-color: FFFFFF;
@@ -68,5 +69,16 @@
     </div>
     <button class="return-button" onclick="window.location.href='HomePage.html'">Return to Homepage</button>
   </div>
+  <button id="chatButton" class="chat-button"><i class="fas fa-comment"></i></button>
+    <div id="chatWindow" class="chat-window">
+        <div class="title">NEED HELP</div>
+      <div id="chatMessages" class="chat-messages"></div>
+      <div class="chat-input">
+        <input type="text" id="messageInput" placeholder="Type your message...">
+        <button id="sendButton">Send</button>
+      </div>
+    </div>
+    <script src="bot.js"></script>
+
 </body>
 </html>

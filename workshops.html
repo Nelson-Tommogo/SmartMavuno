@@ -6,6 +6,7 @@
         <link rel="icon" type="image/x-icon" href="logo-black.png" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="bot.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Include Font Awesome CSS -->
 
     </head>
     <body>
@@ -250,14 +251,15 @@
 
   </div>
 
-  <button id="chatButton" class="chat-button">Ask Something</button>
-                <div id="chatWindow" class="chat-window">
-                  <div id="chatMessages" class="chat-messages"></div>
-                  <div class="chat-input">
-                    <input type="text" id="messageInput" placeholder="Type your message...">
-                    <button id="sendButton">Send</button>
-                  </div>
-                </div>
+  <button id="chatButton" class="chat-button"><i class="fas fa-comment"></i></button>
+    <div id="chatWindow" class="chat-window">
+        <div class="title">NEED HELP</div>
+      <div id="chatMessages" class="chat-messages"></div>
+      <div class="chat-input">
+        <input type="text" id="messageInput" placeholder="Type your message...">
+        <button id="sendButton">Send</button>
+      </div>
+    </div>
                 <script src="bot.js"></script>
 
   <script>
