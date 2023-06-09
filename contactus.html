@@ -16,7 +16,8 @@
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
     </style>
     <link rel="stylesheet" href="contactus.css">
-    </head>
+    <link rel="stylesheet" href="bot.css">
+</head>
     <body>
         <section>
             <div class="container">
@@ -83,8 +84,19 @@
                     </div>
                 </div>
         </section>
-    </body>
-    <script src="contact.js"></script>
+    
+    <button id="chatButton" class="chat-button">Ask Something</button>
 
+  <div id="chatWindow" class="chat-window">
+    <div id="chatMessages" class="chat-messages"></div>
+    <div class="chat-input">
+      <input type="text" id="messageInput" placeholder="Type your message...">
+      <button id="sendButton">Send</button>
+    </div>
+  </div>
+
+  <script src="bot.js"></script>
+    <script src="contact.js"></script>
+</body>
 
 </html>
