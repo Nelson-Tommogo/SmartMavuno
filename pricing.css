@@ -1,4 +1,3 @@
-/* Add this to your pricing.css file */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -48,13 +47,12 @@ tr:hover {
 
 
 .header__logo img {
-    width: 100px; /* Set the desired width */
-    height: auto; /* This will maintain the aspect ratio */
+    width: 100px;
+    height: auto;
 }
 .header__logo {
     flex: 2;
   }
-/* Add this to your pricing.css file */
 .search-container {
     display: flex;
     align-items: center;
@@ -68,7 +66,7 @@ tr:hover {
 
 #searchButton {
     padding: 10px 15px;
-    background-color: #007BFF;
+    background-color: green;
     border: none;
     cursor: pointer;
     color: white;
