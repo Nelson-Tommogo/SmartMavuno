@@ -286,6 +286,9 @@
                     if (!found) {
                         alert('Commodity not found.');
                     }
+                    setTimeout(function() {
+                        location.reload();
+                    }, 12000);
                 } else {
                     $('#pricingTable tr').show();
                 }
