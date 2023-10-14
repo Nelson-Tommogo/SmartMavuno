@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SmartMavuno App</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>.
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0-beta2/css/all.min.css" integrity="sha384-EVrQz2iVhq0kwnO6tFg/DKtk4AV9suj1eq8VSJo39mY67kXu4aTlj5WJx2RW27ot" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="pricing.css">
     <link rel="icon" type="image/x-icon" href="logo-black.png"/>
 </head>
 <body>
+    
+    
     <div class="header__logo">
         <img src="logo-black.png" alt="Logo">
+    </div>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search Commodity">
+        <button id="searchButton"><i class="fa fa-search"></i></button>
     </div>
     <h1>Agricultural Commodities Real Time Pricing</h1>
     <table>
@@ -21,8 +28,224 @@
             </tr>
         </thead>
         <tbody id="pricingTable">
-            <!-- Pricing data will be inserted here -->
+            <tr>
+                <td>Wheat</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Rice</td>
+                <td>$80</td>
+            </tr>
+            <tr>
+                <td>Corn</td>
+                <td>$90</td>
+            </tr>
+            <tr>
+                <td>Soybeans</td>
+                <td>$110</td>
+            </tr>
+            <tr>
+                <td>Barley</td>
+                <td>$95</td>
+            </tr>
+            <tr>
+                <td>Oats</td>
+                <td>$85</td>
+            </tr>
+            <tr>
+                <td>Potatoes</td>
+                <td>$60</td>
+            </tr>
+            <tr>
+                <td>Tomatoes</td>
+                <td>$70</td>
+            </tr>
+            <tr>
+                <td>Carrots</td>
+                <td>$55</td>
+            </tr>
+            <tr>
+                <td>Apples</td>
+                <td>$75</td>
+            </tr>
+            <tr>
+                <td>Oranges</td>
+                <td>$80</td>
+            </tr>
+            <tr>
+                <td>Bananas</td>
+                <td>$65</td>
+            </tr>
+            <tr>
+                <td>Grapes</td>
+                <td>$90</td>
+            </tr>
+            <tr>
+                <td>Strawberries</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Blueberries</td>
+                <td>$110</td>
+            </tr>
+            <tr>
+                <td>Raspberries</td>
+                <td>$120</td>
+            </tr>
+            <tr>
+                <td>Peaches</td>
+                <td>$85</td>
+            </tr>
+            <tr>
+                <td>Plums</td>
+                <td>$75</td>
+            </tr>
+            <tr>
+                <td>Cherries</td>
+                <td>$95</td>
+            </tr>
+            <tr>
+                <td>Pears</td>
+                <td>$80</td>
+            </tr>
+            <tr>
+                <td>Avocados</td>
+                <td>$90</td>
+            </tr>
+            <tr>
+                <td>Pineapples</td>
+                <td>$70</td>
+            </tr>
+            <tr>
+                <td>Mangoes</td>
+                <td>$60</td>
+            </tr>
+            <tr>
+                <td>Papayas</td>
+                <td>$65</td>
+            </tr>
+            <tr>
+                <td>Coconuts</td>
+                <td>$55</td>
+            </tr>
+            <tr>
+                <td>Lemons</td>
+                <td>$50</td>
+            </tr>
+            <tr>
+                <td>Limes</td>
+                <td>$45</td>
+            </tr>
+            <tr>
+                <td>Ginger</td>
+                <td>$40</td>
+            </tr>
+            <tr>
+                <td>Garlic</td>
+                <td>$35</td>
+            </tr>
+            <tr>
+                <td>Onions</td>
+                <td>$30</td>
+            </tr>
+            <tr>
+                <td>Pumpkins</td>
+                <td>$25</td>
+            </tr>
+            <tr>
+                <td>Zucchinis</td>
+                <td>$20</td>
+            </tr>
+            <tr>
+                <td>Cucumbers</td>
+                <td>$15</td>
+            </tr>
+            <tr>
+                <td>Broccoli</td>
+                <td>$10</td>
+            </tr>
+            <tr>
+                <td>Cauliflower</td>
+                <td>$12</td>
+            </tr>
+            <tr>
+                <td>Kale</td>
+                <td>$14</td>
+            </tr>
+            <tr>
+                <td>Spinach</td>
+                <td>$16</td>
+            </tr>
+            <tr>
+                <td>Lettuce</td>
+                <td>$18</td>
+            </tr>
+            <tr>
+                <td>Cabbage</td>
+                <td>$20</td>
+            </tr>
+            <tr>
+                <td>Peppers</td>
+                <td>$22</td>
+            </tr>
+            <tr>
+                <td>Chilies</td>
+                <td>$24</td>
+            </tr>
+            <tr>
+                <td>Eggplant</td>
+                <td>$26</td>
+            </tr>
+            <tr>
+                <td>Celery</td>
+                <td>$28</td>
+            </tr>
+            <tr>
+                <td>Asparagus</td>
+                <td>$30</td>
+            </tr>
+            <tr>
+                <td>Artichokes</td>
+                <td>$32</td>
+            </tr>
+            <tr>
+                <td>Mushrooms</td>
+                <td>$34</td>
+            </tr>
+            <tr>
+                <td>Beets</td>
+                <td>$36</td>
+            </tr>
+            <tr>
+                <td>Radishes</td>
+                <td>$38</td>
+            </tr>
+            <tr>
+                <td>Turnips</td>
+                <td>$40</td>
+            </tr>
+            <tr>
+                <td>Sweet Potatoes</td>
+                <td>$42</td>
+            </tr>
+            <tr>
+                <td>Yams</td>
+                <td>$44</td>
+            </tr>
+            <tr>
+                <td>Green Beans</td>
+                <td>$46</td>
+            </tr>
+            <tr>
+                <td>Peas</td>
+                <td>$48</td>
+            </tr>
+            <tr>
+                <td>Lentils</td>
+                <td>$50</td>
+            </tr>
         </tbody>
+        
     </table>
 
     <script>
@@ -36,12 +259,38 @@
                 'X-RapidAPI-Host': 'commodity-rates-api.p.rapidapi.com'
             }
         };
-
+    
         $.ajax(settings).done(function (response) {
             const tableBody = $('#pricingTable');
             const row = `<tr><td>Brent Oil</td><td>${response.rates.BRENTOIL}</td></tr>`;
             tableBody.append(row);
         });
+    
+        $(document).ready(function() {
+            $('#searchButton').on('click', function() {
+                let searchTerm = $('#searchInput').val().toLowerCase().trim();
+    
+                if (searchTerm) {
+                    let found = false;
+                    $('#pricingTable tr').each(function() {
+                        const commodity = $(this).find('td:first').text().toLowerCase();
+                        if (commodity.includes(searchTerm)) {
+                            $(this).show();
+                            found = true;
+                        } else {
+                            $(this).hide();
+                        }
+                    });
+    
+                    if (!found) {
+                        alert('Commodity not found.');
+                    }
+                } else {
+                    $('#pricingTable tr').show();
+                }
+            });
+        });
     </script>
+    
 </body>
 </html>

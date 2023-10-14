@@ -1,28 +1,75 @@
+/* Add this to your pricing.css file */
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.header__logo img {
+    width: 100px;
+    height: auto;
+}
+
+h1 {
+    margin: 20px 0;
 }
 
 table {
-    border-collapse: collapse;
     width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
 }
 
 th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
+    padding: 8px 16px;
 }
 
 th {
     background-color: #f2f2f2;
 }
 
-h1 {
-    text-align: center;
+tr:nth-child(even) {
+    background-color: #f9f9f9;
 }
+
+tr:hover {
+    background-color: #ddd;
+}
+
+
+
+
+
+
 .header__logo img {
     width: 100px; /* Set the desired width */
     height: auto; /* This will maintain the aspect ratio */
 }
+.header__logo {
+    flex: 2;
+  }
+/* Add this to your pricing.css file */
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
 
+#searchInput {
+    padding: 10px;
+    flex-grow: 1;
+}
+
+#searchButton {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
