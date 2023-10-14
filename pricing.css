@@ -21,3 +21,8 @@ th {
 h1 {
     text-align: center;
 }
+.header__logo img {
+    width: 100px; /* Set the desired width */
+    height: auto; /* This will maintain the aspect ratio */
+}
+
