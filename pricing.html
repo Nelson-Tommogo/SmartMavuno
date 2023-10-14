@@ -290,7 +290,10 @@
                 } else {
                     $('#pricingTable tr').show();
                 }
-                location.reload();
+                setTimeout(function() {
+                    location.reload();
+                }, 120000); // 120000 milliseconds = 2 minutes
+                
             });
         });
     </script>
