@@ -286,13 +286,12 @@
                     if (!found) {
                         alert('Commodity not found.');
                     }
-                    location.reload();
                 } else {
                     $('#pricingTable tr').show();
                 }
                 setTimeout(function() {
                     location.reload();
-                }, 120000); // 120000 milliseconds = 2 minutes
+                }, 120000);
                 
             });
         });
